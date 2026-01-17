@@ -221,3 +221,64 @@ color: #414040;
     gap: 30px;
 
 }
+/* info related style */
+.contact-heading{
+    text-align: center;
+}
+.contact-heading h2{
+    font-size: 2rem;
+    font-weight: 1000;
+    color: #414040;
+}
+.contact-heading p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #707070;
+}
+.contact-banner{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+    
+    
+}
+.contact-card{
+   display:grid;
+   grid-template-columns: repeat(2,1fr);
+   
+   
+   
+    
+}
+.c-card{
+   box-shadow: 1px 1px 1px 1px;
+    background-color: #F3F3F3;
+    width: 200px;
+    height: 150px;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    height: 300px;
+    gap: 20px;
+   
+    
+    
+    
+}
+.name , .email , .text , .textarea , .form-btn{
+   border-radius: 6px; 
+   border: none;
+   background-color: #F3F3F3;
+}
+.form-btn{
+    background-color: #B68C5A;
+}
+
