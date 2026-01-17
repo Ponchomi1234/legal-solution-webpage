@@ -98,3 +98,126 @@
    border: none;
    margin-left: 24px;
 }
+/* legal section */
+.legal-head{
+   text-align: center;
+   margin-top: 120px;
+}
+.legal-titel{
+    font-size: 2.5rem;
+}
+.legal-card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+}
+.legal-card{
+    
+   
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 72px;
+    padding-right: 71px;
+    padding-bottom: 91px;
+    padding-top: 35px;
+    box-shadow: 0 1px 1px 0;
+    
+
+   
+}
+
+.legal-card h3{
+font-size: 2rem;
+font-weight: 900;
+color: #414040;
+}
+/* client section style */
+.client-section{
+    margin-top: 120px;
+}
+.client-header{
+    text-align: center;
+}
+.client-header h2{
+    font-size: 2.5rem;
+    font-weight: 1000;
+    color: #414040;
+}
+.client-header p{
+    font-size: 1rem;
+    color: #707070;
+   
+
+}
+.client-banner{
+    background-image: url(../images/banner.png);
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 135px;
+    padding-right: 135px;
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 900px;
+    margin: 0 auto;
+    
+   
+}
+.client-container{
+    text-align: center;
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+
+}
+.client-container h2{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+.client-container h3{
+    font-weight: 1rem;
+    font-weight: 300;
+    
+}
+
+.client-container p{
+    font-size: 1rem;
+    
+}
+/* ques section */
+.question-header{
+    text-align: center;
+}
+.question-header h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #414040;
+}
+.question-header p{
+    font-size: 1rem;
+    color: #707070;
+}
+.ques-banner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.ques-card{
+    border-radius:10px ;
+    background-color: #F3F3F3;
+    padding-top:35px ;
+    width: 570px;
+   
+    
+}
+.ques-card p{
+    padding-left: 32px;
+}
+.ques-content{
+    display: grid;
+    grid-template-rows: repeat(4 , 1fr);
+    gap: 30px;
+
+}
