@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+.eb-garamond-font{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+/* shared style */
+.text-light-gray{
+    color: #707070;
+}
+
+.dark-gray{
+    color: #414040;
+}
+.brown-color{
+    background-color: #B68C5A;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    padding: 18px;
+}
+
+/* nav style */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list{
+    display: flex;
+    gap: 30px;
+    
+    list-style: none;
+    align-items: center;
+    font-size: 1rem;
+}
+.list-item{
+    text-decoration: none;
+}
+.nav-titel{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.nav-btn{
+    width: 220px;
+    height: 64px;
+    font-size: 1rem;
+    
+}
+/* banner style */
+.banner-container{
+    width: 692px;
+    margin: 0 auto;
+    padding-top: 104px;
+    padding-right: 139px;
+    padding-left: 139px;
+    
+}
+.banner-section{
+   background-image: url("../images/banner.png");
+   width: 1170px;
+   height: 550px;
+   margin: 0 auto;
+}
+.banner-content{
+    text-align: center;
+    color: white;
+    
+}
+.banner-pera{
+    font-size: 1rem;
+    
+}
+.banner-info{
+   text-align: center;
+   
+}
+.banner-info input{
+   padding-top: 19px;
+   padding-bottom: 19px;
+   width: 500px;
+   border-radius: 8px;
+   border: none;
+}
+.banner-btn{
+    font-size: 1rem;
+    font-weight: 500px;
+    background-color: #B68C5A;
+    color: white;
+   padding-top: 17px;
+   padding-bottom: 17px;
+   padding-right: 39px;
+   padding-left: 39px;
+   border-radius: 9px;
+   border: none;
+   margin-left: 24px;
+}
