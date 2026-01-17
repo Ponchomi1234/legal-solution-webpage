@@ -281,4 +281,47 @@ color: #414040;
 .form-btn{
     background-color: #B68C5A;
 }
-
+/* footer style */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #111111;
+    margin-top: 120px;
+    gap: 30px;
+    
+}
+.justice {
+    width: 260px;
+    margin-left: 50px;
+}
+.justice p{
+    color: white;
+}
+.footer-link{
+    width: 127px;
+}
+.footer-link h2{
+    color: white;
+}
+.footer-link li{
+    list-style: none;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+   color: white; 
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.subscribe{
+    color: white;
+}
+.subscribe input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
